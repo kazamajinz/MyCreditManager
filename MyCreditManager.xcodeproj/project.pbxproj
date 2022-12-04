@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3936E5F72938F2FA008A614E /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936E5F62938F2FA008A614E /* Application.swift */; };
+		3936E5F9293C9B82008A614E /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936E5F8293C9B82008A614E /* Student.swift */; };
+		3936E5FB293C9C75008A614E /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936E5FA293C9C75008A614E /* Subject.swift */; };
+		3936E5FD293C9CDF008A614E /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936E5FC293C9CDF008A614E /* Score.swift */; };
+		3936E5FF293C9D99008A614E /* StudentFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936E5FE293C9D99008A614E /* StudentFunction.swift */; };
+		3936E605293CDF77008A614E /* MenualComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936E604293CDF77008A614E /* MenualComment.swift */; };
+		3936E607293CDF9A008A614E /* ErrorComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936E606293CDF9A008A614E /* ErrorComment.swift */; };
 		39B2DFB42921C87900560E66 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B2DFB32921C87900560E66 /* main.swift */; };
-		39B2DFBD2921DF4400560E66 /* Menual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B2DFBC2921DF4400560E66 /* Menual.swift */; };
-		39CD6B80292359A10084C267 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CD6B7F292359A10084C267 /* Enum.swift */; };
-		39CD6B842923744B0084C267 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CD6B832923744B0084C267 /* Comment.swift */; };
+		39CD6B80292359A10084C267 /* ResultComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CD6B7F292359A10084C267 /* ResultComment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +31,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3936E5F62938F2FA008A614E /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		3936E5F8293C9B82008A614E /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		3936E5FA293C9C75008A614E /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		3936E5FC293C9CDF008A614E /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		3936E5FE293C9D99008A614E /* StudentFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentFunction.swift; sourceTree = "<group>"; };
+		3936E604293CDF77008A614E /* MenualComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenualComment.swift; sourceTree = "<group>"; };
+		3936E606293CDF9A008A614E /* ErrorComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorComment.swift; sourceTree = "<group>"; };
 		39B2DFB02921C87900560E66 /* MyCreditManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCreditManager; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B2DFB32921C87900560E66 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		39B2DFBC2921DF4400560E66 /* Menual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menual.swift; sourceTree = "<group>"; };
-		39CD6B7F292359A10084C267 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
-		39CD6B832923744B0084C267 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		39CD6B7F292359A10084C267 /* ResultComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultComment.swift; sourceTree = "<group>"; };
 		39CD6B892924764B0084C267 /* MyCreditManager+Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyCreditManager+Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -52,6 +62,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3936E602293CCCFB008A614E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3936E5F8293C9B82008A614E /* Student.swift */,
+				3936E5FA293C9C75008A614E /* Subject.swift */,
+				3936E5FC293C9CDF008A614E /* Score.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3936E603293CDF5C008A614E /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				3936E604293CDF77008A614E /* MenualComment.swift */,
+				39CD6B7F292359A10084C267 /* ResultComment.swift */,
+				3936E606293CDF9A008A614E /* ErrorComment.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
 		39B2DFA72921C87900560E66 = {
 			isa = PBXGroup;
 			children = (
@@ -73,9 +103,10 @@
 			isa = PBXGroup;
 			children = (
 				39B2DFB32921C87900560E66 /* main.swift */,
-				39CD6B7F292359A10084C267 /* Enum.swift */,
-				39B2DFBC2921DF4400560E66 /* Menual.swift */,
-				39CD6B832923744B0084C267 /* Comment.swift */,
+				3936E5F62938F2FA008A614E /* Application.swift */,
+				3936E5FE293C9D99008A614E /* StudentFunction.swift */,
+				3936E603293CDF5C008A614E /* Enum */,
+				3936E602293CCCFB008A614E /* Model */,
 			);
 			path = MyCreditManager;
 			sourceTree = "<group>";
@@ -169,10 +200,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39B2DFBD2921DF4400560E66 /* Menual.swift in Sources */,
+				3936E5FF293C9D99008A614E /* StudentFunction.swift in Sources */,
+				3936E5F72938F2FA008A614E /* Application.swift in Sources */,
+				3936E5F9293C9B82008A614E /* Student.swift in Sources */,
+				3936E605293CDF77008A614E /* MenualComment.swift in Sources */,
+				3936E5FD293C9CDF008A614E /* Score.swift in Sources */,
+				3936E5FB293C9C75008A614E /* Subject.swift in Sources */,
 				39B2DFB42921C87900560E66 /* main.swift in Sources */,
-				39CD6B80292359A10084C267 /* Enum.swift in Sources */,
-				39CD6B842923744B0084C267 /* Comment.swift in Sources */,
+				39CD6B80292359A10084C267 /* ResultComment.swift in Sources */,
+				3936E607293CDF9A008A614E /* ErrorComment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
